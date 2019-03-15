@@ -1,0 +1,296 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Blackout Poetry</title>
+<link rel="stylesheet" type="text/css"href="./creativeShot.css">
+<link rel="shortcut icon" type="image/x-icon"href="./websiteIcon.png">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+
+</head>
+<body>
+
+  <div class="header">
+    <div class="buttons">
+    <a href="./creativeShot.HTML"><div class = "actualButton"><input type="image" id = "csBut" src = "./icons/csIcon.png"><p id = "iconCaption">Creative Shot</p></div></a>
+    <a href="./blackoutPoetry.html"><div class = "actualButton"><input type="image" id = "csBut" src = "./icons/bpIcon.png"><p id = "iconCaption">Blackout Poetry</p></div></a>
+    <a href="./heroJourney.html"><div class = "actualButton"><input type="image" id = "csBut" src = "./icons/hjIcon.png"><p id = "iconCaption">Hero's Journey</p></div></a>
+    <a href="./holidayPoem.html"><div class = "actualButton"><input type="image" id = "csBut" src = "./icons/hpIcon.png"><p id = "iconCaption">Holiday Poem</p></div></a>
+    <a href="./pixarStory.html"><div class = "actualButton"><input type="image" id = "csBut" src = "./icons/psIcon.png"><p id = "iconCaption">Pixar Story</p></div></a>
+    <a href="./shortPlay.html"><div class = "actualButton"><input type="image" id = "csBut" src = "./icons/spIcon.png"><p id = "iconCaption">Short Play</p></div></a>
+    </div>
+    <h1 id="title">KEPKEP11</h1>
+  </div>
+
+	<div class="creativeShot">
+		<h1 id="creativeShotH">Blackout Poetry</h1>
+		<p id="creativeShotP"></p>
+		<img class = "creativeShotPic" src = "./featuredCs/bp.png">
+	</div>
+
+
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+ 			var i;
+  			var slides = document.getElementsByClassName("creativeShotPic");
+  			for (i = 0; i < slides.length; i++) {
+ 		    slides[i].style.display = "none"; 
+  		}
+		slideIndex++;
+	  	if (slideIndex > slides.length) {slideIndex = 1} 
+		slides[slideIndex-1].style.display = "block"; 
+ 		setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+	</script>
+
+<style>
+#surname{
+	top: -2em;
+	font-family: "Moon 2.0";
+	font-size: 32px;
+	color: #FAFAFA;
+	opacity: 0.75;
+	text-align: center;
+	font-weight: normal;
+	position: relative;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+div.gallery {
+  border: 0px solid #ccc;
+}
+
+div.gallery:hover {
+  opacity: .65;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+div.desc {
+  padding: 12px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class = "tile">
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/acosta.jpeg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/acosta.jpeg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Acosta</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/agsaoay.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/agsaoay.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Agsaoay</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/angeles.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/angeles.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Angeles</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/arances.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/arances.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Arances</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/arcangel.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/arcangel.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Arcangel</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/bautista.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/bautista.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Bautista</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/bechayda.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/bechayda.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Bechayda</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/bejo.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/bejo.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Bejo</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/cannu.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/cannu.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Cannu</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/capillo.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/capillo.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Capillo</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/castellanes.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/castellanes.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Castellanes</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/colambo.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/colambo.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Colambo</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/dela cruz.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/dela cruz.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Dela Cruz</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/dingal.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/dingal.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Dingal</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/estrella.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/estrella.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Estrella</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/feliciano.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/feliciano.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Feliciano</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/galdo.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/galdo.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Galdo</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/lachica.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/lachica.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">La Chica</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/marianoc.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/marianoc.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Mariano, C.</h1>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <a target="_blank" href="./blackoutPoetry/firstpics/marianok.jpg">
+	<img class = "tilePic" src = "./blackoutPoetry/firstpics/marianok.jpg" width="600" height="400">
+	</a>
+    <h1 id = "surname">Mariano, K.</h1>
+  </div>
+</div>
+
+</body>
+</html>

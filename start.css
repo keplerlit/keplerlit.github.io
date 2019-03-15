@@ -1,0 +1,189 @@
+body {
+
+  background: #F5EDEA;
+
+  padding: 0;
+}
+
+h1 {
+	color: #212121;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 70%;
+}
+
+p {
+  color: #212121;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+}
+
+
+#title {
+	font-family: "Open Sans";
+	letter-spacing: -3px;
+	font-weight: bold;
+	font-size: 64px;
+	text-align: left;
+	color: white;
+	position: absolute;
+	top:-8px;
+}
+
+.buttons{
+	text-align: center;
+}
+
+.actualButton{
+	display: inline-block;
+}
+
+#csBut{	
+	margin-left: 2.65em;
+	margin-right: 2.65em;
+	top:6px;
+	position: relative;
+	height: 48px;
+	width: height; 
+}
+#iconCaption{
+	font-size: 14px;
+	color: #FAFAFA;
+	line-height: 1.5em;
+ 	text-align: center;}
+
+
+
+.creativeShot{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 720px;
+    overflow: hidden;
+
+}
+#creativeShotH{
+	top: 3em;
+	font-family: "Moon 2.0";
+	font-size: 72px;
+	color: #FAFAFA;
+	font-weight: normal;
+	position: relative;
+	text-shadow: 4px 4px 4px #000000;
+}
+#creativeShotP{
+	top: 8.35em;
+	font-family: "Moon 2.0";
+	font-size: 28px;
+	color: #FAFAFA;
+	opacity: 0.75;
+	text-align: center;
+	font-weight: normal;
+	position: relative;
+	text-shadow: 2px 2px 2px #000000;
+}
+.creativeShotPic{
+	z-index: -1;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  right: -9999px;
+  bottom: -9999px;
+  margin: auto
+}
+
+
+#cpButton{
+	top: 10em;
+	position: relative;
+	height: 56.25px;
+	width: 185px;
+	background-color: #FAFAFA;
+  	border: none;
+  	border-radius: 24px;
+ 	color: #212121;
+ 	font-size: 32px;
+	box-shadow: 4px 4px 4px #000000;
+}
+
+.tile{
+	display: inline-block;
+	position: relative;
+	top: 48em;
+
+}
+
+.blackoutPoetry{
+
+}
+.blackoutPoetryPic{
+	z-index: -1;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  right: -9999px;
+  bottom: -9999px;
+  margin: auto
+  
+}
+
+#bpIcon{
+	display: inline-block;
+	top: 20em;
+	position: relative;
+	height: 64px;
+	width: height; 
+	 -webkit-filter: drop-shadow(4px 4px 2px #000000);}
+
+
+
+
+
+
+.header {
+
+ 	background: #212121;
+	width: 100%;
+	height: 72px;
+	position: fixed;
+	z-index: 2;
+	top: 0px;
+
+}
+
+.image {
+	width: 100%;
+	height: width;
+
+  	background-position: center;
+	position: relative;
+
+}
+
+.futura{
+	font-family: "futura bk";
+	font-size: 32px;
+	text-align: left;
+	color: #141414;
+	font-weight: normal; 
+	position: relative;
+}
+
+.main{
+	position: relative;
+	top: 92px;
+}
+
+
+*{
+	margin: 0;
+}
